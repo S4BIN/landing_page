@@ -1,30 +1,40 @@
-body{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 header{
     background-color: #1f2937;
     color: white;
     padding: 0 150px 0 150px;
+    margin-bottom: 50px;
 }
 
 nav{
     display: flex;
     align-content: space-between;
+    padding: 20px 0 20px 0;
+    gap: 400px;
+    margin-bottom: 100px;
 }
 
 .logo{
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
+    margin-right: 50px;
 }
 
 .header-links{
     font-size: 18px;
     color: #e5e7eb;
-    display: flex;
-    align-items: flex-end;
+    align-content: space-between;
+    align-items: center;
+    gap: 15px;
 }
 
 section{
@@ -37,14 +47,54 @@ h1{
     font-weight: bold;
 }
 
+.container p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 section.container {
     flex-wrap: wrap;
 }
 
-.image{
-    padding: 100px 50px 100px 50px;
+.image{    
     background-color: grey;
     color: white;
-    margin: 25px 100px 0px 100px;
+    padding: 80px 150px 80px;
+    margin: 0 50px 100px;
+}
 
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-img{
+    padding: 40px;
+    border-width: 8px;
+    background-color: #1f2937;
 }
