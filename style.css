@@ -125,7 +125,7 @@ figure {
 }
 
 .last-section{
-    margin: 70px 130px 70px;
+    margin: 90px 130px 90px;
     padding: 40px 80px 40px;
     background-color: #3882f6;
     color: white;
@@ -146,4 +146,11 @@ figure {
     border-style: solid;
     margin-left: 350px;
     cursor: pointer;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 0 40px;
 }
