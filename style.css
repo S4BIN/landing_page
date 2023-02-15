@@ -90,11 +90,60 @@ h2{
 
 .subtext{
     display: flex;
-    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
 }
 
 .info-img{
-    padding: 40px;
-    border-width: 8px;
-    background-color: #1f2937;
+    padding: 80px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+figure {
+    width: 180px;
+    margin: 0 30px 100px;
+    text-align: center;
+}
+
+.quote-back{
+    background-color: #e5e7eb;
+    padding: 100px 200px 100px;
+}
+
+.quote-text{
+    font-size: 36px; 
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
+    margin-top: 5px;
+}
+
+.last-section{
+    margin: 70px 130px 70px;
+    padding: 40px 80px 40px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-btn{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 24px 8px;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 350px;
+    cursor: pointer;
 }
